@@ -71,7 +71,7 @@ ul, ol {
   position: absolute;
   top: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.75);
 }
 
 .main {
@@ -97,6 +97,7 @@ ul, ol {
 }
 
 .user__img {
+  display: block;
   max-width: 180px;
   width: 100%;
   height: 180px;
@@ -138,8 +139,8 @@ h2 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-image: -webkit-gradient(linear, left top, right top, from(#FF512F), color-stop(51%, #DD2476), to(#FF512F));
-  background-image: linear-gradient(to right, #FF512F 0%, #DD2476 51%, #FF512F 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(#f1684d), color-stop(51%, #ee4490), to(#fa6142));
+  background-image: linear-gradient(to right, #f1684d 0%, #ee4490 51%, #fa6142 100%);
   background-size: 200% auto;
   color: white;
   margin-bottom: 12px;
